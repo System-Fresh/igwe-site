@@ -44,6 +44,13 @@ label.logo{
     line-height: 80px;
 }
 
+.logo img{
+    width: 70px;
+    background: #fff;
+    margin-top: 0.3rem;
+    border-radius: 0.5rem;
+}
+
 nav ul{
     float: right;
     margin-right: 40px;
@@ -80,31 +87,9 @@ nav #icon{
     display: none;
 }
 
-.scrollUp{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 35px;
-    color: #fff;
-    text-decoration: none;
-    opacity: 0;
-    pointer-events: none;
-    transition: .5s;
-    background: crimson;
-    position: fixed;
-    bottom: 16px;
-    right: 32px;
-    height: 60px;
-    width: 60px;
-    border-radius: 5px;
-}
 
-.scrollUp.active{
-    bottom: 32px;
-    pointer-events: auto;
-    opacity: 1;
-    transform: translate(-55px);
-}
+
+
 
 @media (max-width: 1048px) {
     label.logo{
@@ -166,7 +151,7 @@ nav #icon{
 @media (max-width: 450px){
     nav ul{
         position: fixed;
-        width: 80%;
+        width: 100%;
         height: 100vh;
         background: transparent;
         top: 80px;
@@ -174,6 +159,16 @@ nav #icon{
         background: #2f3640;
     
 
+    }
+}
+
+@media (max-width: 300px){
+    label.logo{
+       font-size: 20px;
+    }
+   
+    nav #icon{
+        margin-right: 20px;
     }
 }
 

@@ -173,3 +173,24 @@ shadow.addEventListener("click", function (e) {
   // shadow.style.display = "none";
 
   // }
+
+
+
+  // start Video section
+let listVideo = document.querySelectorAll('.video-list .vid');
+let mainVideo = document.querySelector('.main-video video')
+let title = document.querySelector('.main-video .title');
+
+listVideo.forEach(video =>{
+  video.onclick = () =>{
+    listVideo.forEach(vid => vid.classList.remove('v-active'));
+    video.classList.add('v-active');
+    if(video.classList.contains('v-active')){
+      let src = video.children[0].getAttribute('src');
+      mainVideo.src = src;
+      let text = video.children[1].innerHTML;
+      title.innerHTML = text;
+    }
+  }
+})
+  // end Video section
