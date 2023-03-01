@@ -66,12 +66,13 @@
 }
 
 .prev-btn, .next-btn{
-    z-index: 333;
+    z-index: 1000;
     font-size: 2em;
     color: #222;
     background: rgba(255, 255, 255, 0.8);
     padding: 10px;
     cursor: pointer;
+    visibility: hidden;
 }
 
 .slider:hover .navigation{
@@ -81,10 +82,9 @@
 .prev-btn{
     border-top-right-radius: 3px;
     border-bottom-right-radius: 3px;
-
 }
 
-.nect-btn{
+.next-btn{
     border-top-left-radius: 3px;
     border-bottom-left-radius: 3px;
 }
@@ -136,7 +136,7 @@
     }
 }
 
-/* wrapperz */
+/*************************** wrapperz ***********************/
 
 .wrapperz{
     padding: 10px;
@@ -209,6 +209,7 @@
   .details .title p.current-img{
     font-weight: 500;
   }
+  
   .details .icon{
     color: #007bff;
     font-size: 20px;
