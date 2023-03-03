@@ -194,3 +194,13 @@ listVideo.forEach(video =>{
   }
 })
   // end Video section
+
+//   GIF Preloader
+
+var loader = document.getElementById("preloader");
+
+window.addEventListener("load", function(){
+    loader.style.display = "none";
+});
+
+//   End of GIF Preloader
