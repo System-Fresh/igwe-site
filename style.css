@@ -402,10 +402,12 @@ nav #icon{
 
 .write-up ul{
     margin: 1rem 0;
+    
 }
 .write-up li{
     text-align: center;
     line-height: 1.6;
+    font-weight: bold;
 }
 
 
