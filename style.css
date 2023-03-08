@@ -393,6 +393,11 @@ nav #icon{
 
 .write-up p{
     text-align: center;
+    background-color: #fff;
+    padding: 1.2rem 0.6rem;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    border-radius: 0.5rem;
+
 }
 
 .write-up ul{
