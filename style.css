@@ -60,6 +60,9 @@ body{
     font-size: 35px;
     color: #001a2e;
 }
+#progress-value img{
+    width: 30px;
+}
 
 
 /*********** end of back to top button ***********/
