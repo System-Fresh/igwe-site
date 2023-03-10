@@ -209,6 +209,10 @@ nav #icon{
     nav #icon{
         margin-right: 20px;
     }
+
+    .logo img{
+        width: 45px;
+    }
 }
 
 

@@ -1,3 +1,15 @@
+$( "#icon" ).click( function() {
+  $("body").toggleClass('fixed');
+});
+
+$(document).ready(function(){
+  $('#icon').click(function(){
+   $('ul').toggleClass('show');
+  });
+});
+
+
+
 let calcScrollValue = () => {
     let scrollProgress = document.getElementById("progress");
     let progressValue = document.getElementById("progress-value");

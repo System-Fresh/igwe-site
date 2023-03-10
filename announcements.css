@@ -1,0 +1,105 @@
+/*********** start of back to top button ************/
+#progress{
+    /* background-color: #800000; */
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    height: 70px;
+    width: 70px;
+    display: none;
+    place-items: center;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    z-index: 5;
+}
+
+#progress-value{
+    display: block;
+    height: calc(100% - 15px);
+    width: calc(100% - 15px);
+    background-color: #ffffff;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    font-size: 35px;
+    color: #001a2e;
+}
+
+
+/*********** end of back to top button ***********/
+
+/* start of date and time */
+
+.time-body{
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: #800000; */
+    margin-bottom: 10rem;
+
+    
+}
+
+.datetime{
+    /* color: #ffffff; */
+    background: #000;
+    color: #000;
+    background: #800000; 
+    width: 420px;
+    padding: 15px 10px;
+    border: 3px solid #000;
+    border-radius: 5px;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, rgba(255, 255, 255, 0.5));
+}
+
+.date{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.time{
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.time span:not(:last-child){
+    position: relative;
+    margin: 0 6px;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+@media (max-width: 650px){
+   .datetime{
+    width: 300px;
+   }
+
+   .date{
+    font-size: 15px;
+   }
+   .time{
+    font-size: 40px;
+   }
+}
+@media (max-width: 300px){
+   .datetime{
+    width: 200px;
+   }
+   .date{
+     font-size: 10px;
+   }
+   .time{
+    font-size: 25px;
+   }
+
+}
+
+
+/* start of date and time */
