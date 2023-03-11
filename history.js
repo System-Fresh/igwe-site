@@ -31,3 +31,14 @@ let calcScrollValue = () => {
   
   window.onscroll = calcScrollValue;
   // window.onload = calcScrollValue;
+
+
+   //   GIF Preloader
+
+var loader = document.getElementById("preloader");
+
+window.addEventListener("load", function(){
+    loader.style.display = "none";
+});
+
+//   End of GIF Preloader

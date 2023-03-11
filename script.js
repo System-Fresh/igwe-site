@@ -136,3 +136,12 @@ window.onscroll = calcScrollValue;
 // });
 // // scrollUp Button
 
+//   GIF Preloader
+
+var loader = document.getElementById("preloader");
+
+window.addEventListener("load", function(){
+    loader.style.display = "none";
+});
+
+//   End of GIF Preloader
